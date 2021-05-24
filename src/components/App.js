@@ -11,8 +11,6 @@ export default class App extends Component {
 	};
 
 	onSearchSubmit = async term => {
-		console.log('search term: ', term);
-
 		const res = await unsplash.get('/search/photos/', {
 			params: { query: term },
 		});
@@ -23,7 +21,6 @@ export default class App extends Component {
 		return (
 			<div className='ui container'>
 				<SearchBar onSearchSubmit={this.onSearchSubmit} />
-				{this.state.images.length}
 				<ImageList images={this.state.images} />
 			</div>
 		);

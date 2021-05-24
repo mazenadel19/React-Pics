@@ -3,7 +3,7 @@
 ## 🚀 Getting Started with Create React App
 
 - open terminal
-- git clone `https://github.com/mazenadel19/react-pics`
+- git clone `https://github.com/mazenadel19/react-pics.git`
 - cd react-pics
 - `npm start` or `yarn start`
 
