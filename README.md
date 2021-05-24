@@ -1,6 +1,6 @@
 # React pics
 
-## 🚀 Getting Started with Create React App
+## 🚀 Getting Started
 
 - open terminal
 - git clone `https://github.com/mazenadel19/react-pics.git`
