@@ -19,7 +19,7 @@ export default class SearchBar extends Component {
 						<input
 							type='text'
 							id='imgSearch'
-							placeholder='type something here...'
+							placeholder='type something here and hit enter .. '
 							value={this.state.term}
 							onChange={e => this.setState({ term: e.target.value })}
 						/>
